@@ -17,8 +17,7 @@ def assembled_aoh
     { :name=>  "Bruce Green", occupation: "Fan of Mildred" } 
     ]
     new_array
-    sorted_array = new_array.sort_by { |element| element.keys.first }
-    sorted_array
+    
 end
 
 def literal_aoh
